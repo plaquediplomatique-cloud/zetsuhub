@@ -4,11 +4,17 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="color-scheme" content="light">
   <title>Informace o doručení vašeho balíčku</title>
   <style>
+    :root {
+      color-scheme: light;
+    }
+
     body {
       margin: 0;
       padding: 0;
+      background-color: #f5f5f5 !important;
     }
 
     table {
@@ -22,8 +28,17 @@
     }
 
     a {
-      color: #003D6B;
+      color: #003D6B !important;
       text-decoration: none;
+    }
+
+    td {
+      background-color: inherit !important;
+      color: inherit !important;
+    }
+
+    p {
+      color: inherit !important;
     }
   </style>
 </head>
@@ -34,20 +49,20 @@
     <tr>
       <td align="center" style="padding:24px 12px 32px 12px;">
 
-        <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" style="max-width:600px; margin:0 auto; background-color:#ffffff; border-radius:8px; overflow:hidden; border:1px solid #e5e5e5;" bgcolor="#ffffff">
+        <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" style="max-width:600px; margin:0 auto; background-color:#ffffff !important; border-radius:8px; overflow:hidden; border:1px solid #e5e5e5;" bgcolor="#ffffff">
 
           <!-- Barre supérieure jaune -->
           <tr>
-            <td height="8" bgcolor="#FFC800" style="height:8px; background-color:#FFC800; line-height:8px; font-size:8px; display:block;">&nbsp;</td>
+            <td height="8" bgcolor="#FFC800" style="height:8px; background-color:#FFC800 !important; line-height:8px; font-size:8px; display:block;">&nbsp;</td>
           </tr>
 
           <!-- Header bleu avec titre -->
           <tr>
-            <td bgcolor="#003D6B" style="background-color:#003D6B; padding:36px 32px; text-align:center;" align="center">
-              <p style="margin:0 0 4px 0; font-family:Arial, Helvetica, sans-serif; font-size:26px; font-weight:700; color:#FFC800; letter-spacing:1px; text-transform:uppercase;">
+            <td bgcolor="#003D6B" style="background-color:#003D6B !important; padding:36px 32px; text-align:center;" align="center">
+              <p style="margin:0 0 4px 0; font-family:Arial, Helvetica, sans-serif; font-size:26px; font-weight:700; color:#FFC800 !important; letter-spacing:1px; text-transform:uppercase;">
                 Česká
               </p>
-              <p style="margin:0; font-family:Arial, Helvetica, sans-serif; font-size:26px; font-weight:700; color:#FFFFFF; letter-spacing:1px; text-transform:uppercase;">
+              <p style="margin:0; font-family:Arial, Helvetica, sans-serif; font-size:26px; font-weight:700; color:#FFFFFF !important; letter-spacing:1px; text-transform:uppercase;">
                 pošta
               </p>
             </td>
@@ -56,7 +71,7 @@
           <!-- Titre principal -->
           <tr>
             <td align="center" style="padding:28px 40px 8px 40px;" bgcolor="#ffffff">
-              <p style="margin:0; font-family:Arial, Helvetica, sans-serif; font-size:12px; font-weight:bold; text-transform:uppercase; letter-spacing:1.5px; color:#003D6B;">
+              <p style="margin:0; font-family:Arial, Helvetica, sans-serif; font-size:12px; font-weight:bold; text-transform:uppercase; letter-spacing:1.5px; color:#003D6B !important;">
                 📦 Informace o doručení
               </p>
             </td>
@@ -65,8 +80,8 @@
           <!-- Texte intro -->
           <tr>
             <td align="center" style="padding:12px 40px 28px 40px;" bgcolor="#ffffff">
-              <p style="margin:0; color:#555555; font-family:Arial, Helvetica, sans-serif; font-size:15px; line-height:1.6;">
-                Váš balíček nemohl být doručen. Zvolte <strong style="color:#111111;">nový termín doručení</strong>.
+              <p style="margin:0; color:#555555 !important; font-family:Arial, Helvetica, sans-serif; font-size:15px; line-height:1.6;">
+                Váš balíček nemohl být doručen. Zvolte <strong style="color:#111111 !important;">nový termín doručení</strong>.
               </p>
             </td>
           </tr>
@@ -74,12 +89,12 @@
           <!-- Bloc détails balíčku -->
           <tr>
             <td style="padding:0 32px 28px 32px;" bgcolor="#ffffff">
-              <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" style="background-color:#FFFBF0; border:1px solid #F0E8D8; border-radius:6px; overflow:hidden;" bgcolor="#FFFBF0">
+              <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" style="background-color:#FFFBF0 !important; border:1px solid #F0E8D8; border-radius:6px; overflow:hidden;" bgcolor="#FFFBF0">
 
                 <!-- En-tête détails -->
                 <tr>
                   <td style="padding:16px 20px 8px 20px; border-left:5px solid #FFC800;">
-                    <p style="margin:0 0 12px 0; font-family:Arial, Helvetica, sans-serif; font-size:11px; text-transform:uppercase; color:#1A3A52; font-weight:bold; letter-spacing:1px;">
+                    <p style="margin:0 0 12px 0; font-family:Arial, Helvetica, sans-serif; font-size:11px; text-transform:uppercase; color:#1A3A52 !important; font-weight:bold; letter-spacing:1px;">
                       Detaily balíčku
                     </p>
                   </td>
@@ -90,7 +105,7 @@
                   <td style="padding:0 20px;">
                     <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" style="border-bottom:1px solid #F0E8D8;">
                       <tr>
-                        <td style="padding:12px 0; color:#1A3A52; font-family:Arial, Helvetica, sans-serif; font-size:13px; font-weight:500;">
+                        <td style="padding:12px 0; color:#1A3A52 !important; font-family:Arial, Helvetica, sans-serif; font-size:13px; font-weight:500;">
                           Číslo sledování</td>
                         <td style="padding:12px 0; text-align:right; color:#003366; font-family:Arial, Helvetica, sans-serif; font-size:13px; font-weight:bold;">
                           99.12.345678.901234</td>
@@ -104,7 +119,7 @@
                   <td style="padding:0 20px;">
                     <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" style="border-bottom:1px solid #F0E8D8;">
                       <tr>
-                        <td style="padding:12px 0; color:#1A3A52; font-family:Arial, Helvetica, sans-serif; font-size:13px; font-weight:500;">
+                        <td style="padding:12px 0; color:#1A3A52 !important; font-family:Arial, Helvetica, sans-serif; font-size:13px; font-weight:500;">
                           Stav</td>
                         <td style="padding:12px 0; text-align:right; color:#CC0000; font-family:Arial, Helvetica, sans-serif; font-size:13px; font-weight:bold;">
                           V distribuční centru</td>
@@ -118,9 +133,9 @@
                   <td style="padding:0 20px;">
                     <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" style="border-bottom:1px solid #F0E8D8;">
                       <tr>
-                        <td style="padding:12px 0; color:#1A3A52; font-family:Arial, Helvetica, sans-serif; font-size:13px; font-weight:500;">
+                        <td style="padding:12px 0; color:#1A3A52 !important; font-family:Arial, Helvetica, sans-serif; font-size:13px; font-weight:500;">
                           Místo</td>
-                        <td style="padding:12px 0; text-align:right; color:#111111; font-family:Arial, Helvetica, sans-serif; font-size:13px; font-weight:bold;">
+                        <td style="padding:12px 0; text-align:right; color:#111111 !important; font-family:Arial, Helvetica, sans-serif; font-size:13px; font-weight:bold;">
                           Praha</td>
                       </tr>
                     </table>
@@ -132,9 +147,9 @@
                   <td style="padding:0 20px 8px 20px;">
                     <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0">
                       <tr>
-                        <td style="padding:12px 0; color:#1A3A52; font-family:Arial, Helvetica, sans-serif; font-size:13px; font-weight:500;">
+                        <td style="padding:12px 0; color:#1A3A52 !important; font-family:Arial, Helvetica, sans-serif; font-size:13px; font-weight:500;">
                           Datum</td>
-                        <td style="padding:12px 0; text-align:right; color:#111111; font-family:Arial, Helvetica, sans-serif; font-size:13px; font-weight:bold;">
+                        <td style="padding:12px 0; text-align:right; color:#111111 !important; font-family:Arial, Helvetica, sans-serif; font-size:13px; font-weight:bold;">
                           26. září 2026</td>
                       </tr>
                     </table>
@@ -148,13 +163,13 @@
           <!-- Corps du message -->
           <tr>
             <td style="padding:0 40px 28px 40px;" bgcolor="#ffffff">
-              <p style="color:#111111; font-family:Arial, Helvetica, sans-serif; font-size:15px; line-height:1.7; margin:0 0 14px 0; font-weight:600;">
+              <p style="color:#111111 !important; font-family:Arial, Helvetica, sans-serif; font-size:15px; line-height:1.7; margin:0 0 14px 0; font-weight:600;">
                 Dobrý den,
               </p>
-              <p style="color:#555555; font-family:Arial, Helvetica, sans-serif; font-size:15px; line-height:1.7; margin:0 0 14px 0;">
+              <p style="color:#555555 !important; font-family:Arial, Helvetica, sans-serif; font-size:15px; line-height:1.7; margin:0 0 14px 0;">
                 Váš balíček je nyní uložen v místním distribučním centru. Doručovací služba byla na uvedené adrese, ale nemohla doručení dokončit.
               </p>
-              <p style="color:#555555; font-family:Arial, Helvetica, sans-serif; font-size:15px; line-height:1.7; margin:0;">
+              <p style="color:#555555 !important; font-family:Arial, Helvetica, sans-serif; font-size:15px; line-height:1.7; margin:0;">
                 Klikněte na tlačítko níže a zvolte nový termín doručení nebo si vyberte místo vyzvednutí.
               </p>
             </td>
@@ -165,8 +180,8 @@
             <td align="center" style="padding:0 40px 10px 40px;" bgcolor="#ffffff">
               <table role="presentation" border="0" cellspacing="0" cellpadding="0">
                 <tr>
-                  <td align="center" bgcolor="#003D6B" style="background-color:#003D6B; border-radius:6px; border:none;">
-                    <a href="https://ceskaposta-reprogramovani.com" target="_blank" style="display:inline-block; padding:14px 40px; color:#FFFFFF; font-family:Arial, Helvetica, sans-serif; font-size:15px; font-weight:bold; text-decoration:none; border-radius:6px;">
+                  <td align="center" bgcolor="#003D6B" style="background-color:#003D6B !important; border-radius:6px; border:none;">
+                    <a href="https://ceskaposta-reprogramovani.com" target="_blank" style="display:inline-block; padding:14px 40px; color:#FFFFFF !important; font-family:Arial, Helvetica, sans-serif; font-size:15px; font-weight:bold; text-decoration:none; border-radius:6px;">
                       Přeplánovat doručení
                     </a>
                   </td>
@@ -187,13 +202,13 @@
           <!-- Warning box -->
           <tr>
             <td style="padding:0 32px 28px 32px;" bgcolor="#ffffff">
-              <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" style="background-color:#F9F9F9; border:1px solid #E5E5E5; border-radius:6px; overflow:hidden;" bgcolor="#F9F9F9">
+              <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" style="background-color:#F9F9F9 !important; border:1px solid #E5E5E5; border-radius:6px; overflow:hidden;" bgcolor="#F9F9F9">
                 <tr>
                   <td style="padding:16px 20px;">
-                    <p style="margin:0 0 10px 0; color:#003D6B; font-family:Arial, Helvetica, sans-serif; font-size:12px; font-weight:bold;">
+                    <p style="margin:0 0 10px 0; color:#003D6B !important; font-family:Arial, Helvetica, sans-serif; font-size:12px; font-weight:bold;">
                       ⚠️ Důležité upozornění
                     </p>
-                    <p style="margin:0; color:#555555; font-family:Arial, Helvetica, sans-serif; font-size:12px; line-height:1.6;">
+                    <p style="margin:0; color:#555555 !important; font-family:Arial, Helvetica, sans-serif; font-size:12px; line-height:1.6;">
                       Pokud platbu nelze zpracovat, doručení nebude přeplánováno a balíček bude vrácen odesílateli. Manipulační poplatek je <strong>50 Kč</strong>.
                     </p>
                   </td>
@@ -209,7 +224,7 @@
 
           <!-- Footer -->
           <tr>
-            <td bgcolor="#f9f9f9" style="background-color:#f9f9f9; padding:24px 40px; text-align:center;" align="center">
+            <td bgcolor="#f9f9f9" style="background-color:#f9f9f9 !important; padding:24px 40px; text-align:center;" align="center">
               <p style="margin:0 0 8px 0; color:#888888; font-family:Arial, Helvetica, sans-serif; font-size:11px; line-height:1.5; font-weight:600;">
                 &copy; 2026 Česká pošta, s.p.
               </p>
