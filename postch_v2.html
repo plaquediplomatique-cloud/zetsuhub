@@ -6,14 +6,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
     body {
-      margin: 0;
-      padding: 0;
-      background-color: #f5f5f5;
-      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, Helvetica, sans-serif;
+      margin: 0 !important;
+      padding: 0 !important;
+      background-color: #f5f5f5 !important;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, Helvetica, sans-serif !important;
     }
 
     table {
-      border-collapse: collapse;
+      border-collapse: collapse !important;
     }
 
     img {
@@ -22,15 +22,32 @@
       display: block;
     }
 
+    td, p {
+      color: inherit !important;
+      background-color: inherit !important;
+    }
+
     @media only screen and (max-width: 600px) {
       .padding {
         padding: 20px 24px !important;
       }
     }
+
+    @media (prefers-color-scheme: dark) {
+      body {
+        background-color: #f5f5f5 !important;
+      }
+      table {
+        background-color: #ffffff !important;
+      }
+      td {
+        color: inherit !important;
+      }
+    }
   </style>
 </head>
 
-<body style="background-color:#f5f5f5; padding:20px 10px; margin:0;">
+<body style="background-color:#f5f5f5 !important; padding:20px 10px !important; margin:0 !important; color:#333333 !important;">
   <center>
     <table width="100%" cellpadding="0" cellspacing="0" role="presentation" style="max-width:600px; margin:0 auto;">
       <tr>
@@ -53,8 +70,8 @@
 
             <!-- Message intro -->
             <tr>
-              <td align="center" style="padding:40px 45px 30px 45px;">
-                <p style="margin:0; color:#6b7280; font-size:16px; line-height:1.65;">
+              <td align="center" style="padding:40px 45px 30px 45px; background-color:#ffffff !important;">
+                <p style="margin:0; color:#666666 !important; font-size:16px; line-height:1.65;">
                   Wir haben bemerkt, dass die Lieferung Ihres Pakets fehlgeschlagen ist.
                 </p>
               </td>
@@ -105,7 +122,7 @@
                         <tr style="background-color:#FFC722 !important;">
                           <td style="padding:24px 32px 24px 32px; color:#1a1a1a !important; font-size:10px; font-weight:900; text-transform:uppercase; letter-spacing:2px; background-color:#FFC722 !important; width:40%;">Sendungsnummer</td>
                           <td align="right" style="padding:24px 32px 24px 32px; color:#1a1a1a !important; font-size:18px; font-weight:900; background-color:#FFC722 !important; font-family:'Courier New', Courier, monospace; letter-spacing:1.5px; width:60%;">
-                            13 987654 234821 76</td>
+                            CH738EXVZA</td>
                         </tr>
 
                       </table>
@@ -117,9 +134,9 @@
 
             <!-- Texte principal -->
             <tr>
-              <td style="padding:0 45px 35px 45px; color:#374151; font-size:16px; line-height:1.65;">
-                <p style="margin:0 0 20px 0;">Guten Tag,</p>
-                <p style="margin:0;">
+              <td style="padding:0 45px 35px 45px; color:#333333 !important; font-size:16px; line-height:1.65; background-color:#ffffff !important;">
+                <p style="margin:0 0 20px 0; color:#1a1a1a !important;">Guten Tag,</p>
+                <p style="margin:0; color:#555555 !important;">
                   Ihr Paket konnte heute leider nicht zugestellt werden, da niemand anwesend war.<br><br>
                   Bitte programmieren Sie einen neuen Liefertag, damit wir Ihr Paket schnellstmöglich zustellen können.
                 </p>
@@ -128,12 +145,12 @@
 
             <!-- Bouton -->
             <tr>
-              <td align="center" style="padding:0 45px 20px 45px;">
+              <td align="center" style="padding:0 45px 20px 45px; background-color:#ffffff !important;">
                 <table cellpadding="0" cellspacing="0" role="presentation">
                   <tr>
-                    <td align="center" bgcolor="#FFC722" style="border:4px solid #1a1a1a; border-radius:0px;">
+                    <td align="center" bgcolor="#FFC722" style="border:4px solid #1a1a1a !important; border-radius:0px; background-color:#FFC722 !important;">
                       <a href="https://post-reprogramierung.ch/"
-                        style="display:inline-block; padding:17px 40px; color:#1a1a1a; font-size:17px; font-weight:600; text-decoration:none; border-radius:0px; min-width:220px;">
+                        style="display:inline-block; padding:17px 40px; color:#1a1a1a !important; font-size:17px; font-weight:600; text-decoration:none !important; border-radius:0px; min-width:220px;">
                         Liefertag programmieren
                       </a>
                     </td>
@@ -144,8 +161,8 @@
 
             <!-- Note sous le bouton -->
             <tr>
-              <td align="center" style="padding:0 45px 35px 45px;">
-                <p style="margin:0; color:#9ca3af; font-size:14px; line-height:1.5;">
+              <td align="center" style="padding:0 45px 35px 45px; background-color:#ffffff !important;">
+                <p style="margin:0; color:#888888 !important; font-size:14px; line-height:1.5;">
                   Sie werden zu unserem Lieferverwaltungsportal weitergeleitet.
                 </p>
               </td>
@@ -154,8 +171,8 @@
             <!-- Footer -->
             <tr>
               <td bgcolor="#f9fafb"
-                style="background-color:#f9fafb; padding:32px 45px; text-align:center; border-top:1px solid #e5e7eb;">
-                <p style="margin:0; color:#9ca3af; font-size:13px; line-height:1.5;">
+                style="background-color:#f9fafb !important; padding:32px 45px; text-align:center; border-top:1px solid #e5e7eb !important;">
+                <p style="margin:0; color:#888888 !important; font-size:13px; line-height:1.5;">
                   © 2026 Schweizerische Post AG • Alle Rechte vorbehalten
                 </p>
               </td>
