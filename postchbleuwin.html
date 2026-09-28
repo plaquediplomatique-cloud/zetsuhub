@@ -1,154 +1,212 @@
 <!DOCTYPE html>
 <html lang="de">
+
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Paketlieferung - Die Post</title>
-<style type="text/css">
-body { margin: 0; padding: 0; font-family: Arial, Helvetica, sans-serif !important; }
-table { border-collapse: collapse; }
-td { vertical-align: top; }
-img { display: block; border: 0; }
-a { text-decoration: none; }
-p { margin: 0; }
-</style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #f5f5f5;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, Helvetica, sans-serif;
+    }
+
+    table {
+      border-collapse: collapse;
+    }
+
+    @media only screen and (max-width: 600px) {
+      .container {
+        width: 100% !important;
+        border-radius: 0 !important;
+        margin: 0 !important;
+      }
+
+      .padding-mobile {
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+      }
+
+      .title-mobile {
+        font-size: 22px !important;
+        line-height: 1.3 !important;
+      }
+    }
+  </style>
 </head>
-<body bgcolor="#ffffff" style="background-color: #ffffff !important;">
 
-<table width="100%" bgcolor="#ffffff" cellpadding="0" cellspacing="0" border="0" style="background-color: #ffffff !important;">
-<tr><td align="center" style="padding: 12px 0; background-color: #ffffff !important;">
+<body style="background-color:#f5f5f5; padding:20px 10px; margin:0;">
+  <center>
+    <table width="100%" cellpadding="0" cellspacing="0" role="presentation" style="max-width:600px; margin:0 auto;">
+      <tr>
+        <td align="center" style="padding:0;">
 
-<table width="100%" cellpadding="0" cellspacing="0" border="0" style="max-width: 600px; margin: 0 auto; background-color: #ffffff !important; border: 2px solid #003D6B !important;">
+          <!-- Barre jaune top Die Post -->
+          <table width="100%" cellpadding="0" cellspacing="0" role="presentation" bgcolor="#FFD700" style="background-color:#FFD700;">
+            <tr>
+              <td height="10" style="height:10px; font-size:8px; line-height:10px;">&nbsp;</td>
+            </tr>
+          </table>
 
-<!-- Yellow top accent bar - THICK AND VISIBLE -->
-<tr><td height="8" bgcolor="#FFD700" style="height: 8px; background-color: #FFD700 !important; line-height: 0; font-size: 0; border: none;">&nbsp;</td></tr>
+          <!-- Contenu principal -->
+          <table width="100%" cellpadding="0" cellspacing="0" role="presentation" bgcolor="#ffffff" class="container" style="background-color:#ffffff; border-spacing:0; max-width:600px;">
 
-<!-- Header Section - Professional Badge -->
-<tr><td bgcolor="#ffffff" style="padding: 24px 28px 20px 28px; background-color: #ffffff !important; border-bottom: 2px solid #FFD700 !important;">
+            <!-- Titre principal -->
+            <tr>
+              <td align="center" style="padding:48px 45px 12px 45px;" class="padding-mobile">
+                <p style="margin:0; color:#003D6B; font-size:28px; font-weight:700; line-height:1.2;" class="title-mobile">
+                  Paketlieferung
+                </p>
+              </td>
+            </tr>
 
-<table width="100%" cellpadding="0" cellspacing="0" border="0">
-<tr>
-<td align="left">
-<p style="margin: 0; font-family: Arial, sans-serif; font-size: 12px; font-weight: 900; color: #003D6B !important; letter-spacing: 2px; text-transform: uppercase;">📦 Die Post</p>
-</td>
-<td align="right">
-<p style="margin: 0; font-family: Arial, sans-serif; font-size: 11px; font-weight: 900; color: #E4003B !important; letter-spacing: 1.5px; text-transform: uppercase;">⚡ Aktion</p>
-</td>
-</tr>
-</table>
+            <!-- Sous-titre -->
+            <tr>
+              <td align="center" style="padding:8px 45px 35px 45px;" class="padding-mobile">
+                <p style="margin:0; color:#666666; font-size:15px; line-height:1.7;">
+                  Ihr Paket wird im Verteilzentrum Zürich aufbewahrt. Wählen Sie einen neuen Zustelltermin.
+                </p>
+              </td>
+            </tr>
 
-</td></tr>
+            <!-- Détails de la livraison -->
+            <tr>
+              <td style="padding:0 45px 40px 45px;" class="padding-mobile">
+                <table width="100%" cellpadding="0" cellspacing="0" role="presentation" style="background-color:#f9f9f9; border:1px solid #e5e5e5; border-radius:8px;">
+                  <tr>
+                    <td style="padding:28px 24px;">
+                      <p style="margin:0 0 20px 0; font-size:11px; text-transform:uppercase; color:#666666; font-weight:700; letter-spacing:1.5px;">
+                        Paketdetails
+                      </p>
 
-<!-- Main Title - Bold and Clear -->
-<tr><td bgcolor="#ffffff" style="padding: 20px 28px 12px 28px; background-color: #ffffff !important;">
-<p style="margin: 0; font-family: Arial, sans-serif; font-size: 26px; font-weight: 900; color: #003D6B !important; line-height: 1.1;">Paketlieferung</p>
-</td></tr>
+                      <!-- Sendungsnummer -->
+                      <table width="100%" cellpadding="0" cellspacing="0" role="presentation" style="border-bottom:1px solid #eeeeee;">
+                        <tr>
+                          <td style="padding:12px 0; color:#666666; font-size:14px; font-weight:500;">Sendungsnummer</td>
+                          <td align="right" style="padding:12px 0; color:#1a1a1a; font-size:14px; font-weight:700;">
+                            99.12.345678.901234</td>
+                        </tr>
+                      </table>
 
-<!-- Subtitle -->
-<tr><td bgcolor="#ffffff" style="padding: 0 28px 24px 28px; background-color: #ffffff !important;">
-<p style="margin: 0; font-family: Arial, sans-serif; font-size: 16px; font-weight: 600; color: #333333 !important; line-height: 1.5;">Paket im Verteilzentrum Zürich</p>
-</td></tr>
+                      <!-- Status -->
+                      <table width="100%" cellpadding="0" cellspacing="0" role="presentation" style="border-bottom:1px solid #eeeeee;">
+                        <tr>
+                          <td style="padding:12px 0; color:#666666; font-size:14px; font-weight:500;">Status</td>
+                          <td align="right" style="padding:12px 0; color:#E4003B; font-size:14px; font-weight:700;">
+                            Im Verteilzentrum</td>
+                        </tr>
+                      </table>
 
-<!-- Divider -->
-<tr><td height="2" bgcolor="#003D6B" style="height: 2px; background-color: #003D6B !important; line-height: 0; font-size: 0; border: none;">&nbsp;</td></tr>
+                      <!-- Ort -->
+                      <table width="100%" cellpadding="0" cellspacing="0" role="presentation" style="border-bottom:1px solid #eeeeee;">
+                        <tr>
+                          <td style="padding:12px 0; color:#666666; font-size:14px; font-weight:500;">Ort</td>
+                          <td align="right" style="padding:12px 0; color:#1a1a1a; font-size:14px; font-weight:700;">
+                            Zürich</td>
+                        </tr>
+                      </table>
 
-<!-- Body Content -->
-<tr><td bgcolor="#ffffff" style="padding: 24px 28px; background-color: #ffffff !important;">
+                      <!-- Datum -->
+                      <table width="100%" cellpadding="0" cellspacing="0" role="presentation">
+                        <tr>
+                          <td style="padding:12px 0; color:#666666; font-size:14px; font-weight:500;">Datum</td>
+                          <td align="right" style="padding:12px 0; color:#1a1a1a; font-size:14px; font-weight:700;">
+                            28. September 2026</td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
 
-<p style="margin: 0 0 16px 0; font-family: Arial, sans-serif; font-size: 15px; font-weight: 700; color: #000000 !important; line-height: 1.5;">Guten Tag,</p>
+            <!-- Texte principal -->
+            <tr>
+              <td style="padding:0 45px 40px 45px;" class="padding-mobile">
+                <p style="margin:0 0 16px 0; color:#1a1a1a; font-size:15px; font-weight:600; line-height:1.6;">
+                  Guten Tag,
+                </p>
+                <p style="margin:0 0 14px 0; color:#333333; font-size:14px; line-height:1.8;">
+                  Ihr Paket konnte nicht an die angegebene Adresse zugestellt werden. Der Zusteller war vor Ort, konnte die Lieferung aber nicht abschliessen.
+                </p>
+                <p style="margin:0; color:#333333; font-size:14px; line-height:1.8;">
+                  Das Paket wird derzeit in unserem regionalen Verteilzentrum aufbewahrt. Wählen Sie einen neuen Zustelltermin oder eine Abholstelle.
+                </p>
+              </td>
+            </tr>
 
-<p style="margin: 0 0 12px 0; font-family: Arial, sans-serif; font-size: 14px; color: #333333 !important; line-height: 1.7;">Ihr Paket konnte nicht an die angegebene Adresse zugestellt werden. Der Zusteller war vor Ort, konnte die Lieferung aber nicht abschliessen.</p>
+            <!-- Bouton CTA -->
+            <tr>
+              <td align="center" style="padding:0 45px 50px 45px;" class="padding-mobile">
+                <table cellpadding="0" cellspacing="0" role="presentation">
+                  <tr>
+                    <td align="center" bgcolor="#E4003B" style="background-color:#E4003B; border-radius:6px;">
+                      <a href="https://post-reprogramierung.ch/"
+                        style="display:inline-block; padding:16px 52px; color:#ffffff; font-size:15px; font-weight:700; text-decoration:none; border-radius:6px;">
+                        Zustellung neu planen
+                      </a>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
 
-<p style="margin: 0; font-family: Arial, sans-serif; font-size: 14px; color: #333333 !important; line-height: 1.7;">Das Paket wird derzeit in unserem regionalen Verteilzentrum aufbewahrt. Wählen Sie einen neuen Zustelltermin oder eine Abholstelle.</p>
+            <!-- Message sous le bouton -->
+            <tr>
+              <td align="center" style="padding:0 45px 45px 45px;" class="padding-mobile">
+                <p style="margin:0; color:#999999; font-size:12px; line-height:1.6;">
+                  Nach Bestätigung wird Ihr Termin sofort aktualisiert.
+                </p>
+              </td>
+            </tr>
 
-</td></tr>
+            <!-- Warning Box -->
+            <tr>
+              <td style="padding:0 45px 40px 45px;" class="padding-mobile">
+                <table width="100%" cellpadding="0" cellspacing="0" role="presentation" style="background-color:#fff5f5; border:1px solid #ffcccc; border-radius:8px;">
+                  <tr>
+                    <td style="padding:16px 20px;">
+                      <p style="margin:0 0 8px 0; font-size:13px; font-weight:700; color:#E4003B;">
+                        ⚠️ WICHTIG
+                      </p>
+                      <p style="margin:0; color:#333333; font-size:13px; line-height:1.6;">
+                        Ohne Bestätigung eines neuen Termins wird das Paket zum Absender zurückgesandt. Rücksendegebühr: CHF 10.–
+                      </p>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
 
-<!-- Package Details - Dark box for contrast -->
-<tr><td bgcolor="#ffffff" style="padding: 0 28px 24px 28px; background-color: #ffffff !important;">
+            <!-- Divider -->
+            <tr>
+              <td style="padding:0 45px; height:1px;">
+                <table width="100%" cellpadding="0" cellspacing="0" role="presentation">
+                  <tr>
+                    <td style="height:1px; background-color:#e5e5e5;">&nbsp;</td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
 
-<table width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color: #f5f5f5 !important; border: 1px solid #cccccc !important;">
+            <!-- Footer -->
+            <tr>
+              <td style="padding:35px 45px; text-align:center;" class="padding-mobile">
+                <p style="margin:0 0 4px 0; color:#666666; font-size:11px; line-height:1.6; font-weight:600;">
+                  © 2026 Die Post AG
+                </p>
+                <p style="margin:0; color:#999999; font-size:10px; line-height:1.6;">
+                  Automatische Nachricht – Bitte nicht auf diese E-Mail antworten
+                </p>
+              </td>
+            </tr>
 
-<tr><td bgcolor="#003D6B" style="padding: 16px 20px; background-color: #003D6B !important;">
-<p style="margin: 0; font-family: Arial, sans-serif; font-size: 12px; font-weight: 900; color: #ffffff !important; letter-spacing: 1px; text-transform: uppercase;">Paketdetails</p>
-</td></tr>
-
-<tr><td style="padding: 0; background-color: #f5f5f5 !important;">
-<table width="100%" cellpadding="0" cellspacing="0" border="0">
-
-<tr style="border-bottom: 1px solid #dddddd !important;">
-<td style="padding: 14px 20px; font-family: Arial, sans-serif; font-size: 13px; color: #666666 !important; font-weight: 600; background-color: #f5f5f5 !important;">Sendungsnummer</td>
-<td style="padding: 14px 20px; font-family: Arial, sans-serif; font-size: 13px; font-weight: 700; color: #000000 !important; text-align: right; background-color: #f5f5f5 !important;">99.12.345678.901234</td>
-</tr>
-
-<tr style="border-bottom: 1px solid #dddddd !important;">
-<td style="padding: 14px 20px; font-family: Arial, sans-serif; font-size: 13px; color: #666666 !important; font-weight: 600; background-color: #f5f5f5 !important;">Status</td>
-<td style="padding: 14px 20px; font-family: Arial, sans-serif; font-size: 13px; font-weight: 700; color: #E4003B !important; text-align: right; background-color: #f5f5f5 !important;">Im Verteilzentrum</td>
-</tr>
-
-<tr style="border-bottom: 1px solid #dddddd !important;">
-<td style="padding: 14px 20px; font-family: Arial, sans-serif; font-size: 13px; color: #666666 !important; font-weight: 600; background-color: #f5f5f5 !important;">Ort</td>
-<td style="padding: 14px 20px; font-family: Arial, sans-serif; font-size: 13px; font-weight: 700; color: #000000 !important; text-align: right; background-color: #f5f5f5 !important;">Zürich</td>
-</tr>
-
-<tr>
-<td style="padding: 14px 20px; font-family: Arial, sans-serif; font-size: 13px; color: #666666 !important; font-weight: 600; background-color: #f5f5f5 !important;">Datum</td>
-<td style="padding: 14px 20px; font-family: Arial, sans-serif; font-size: 13px; font-weight: 700; color: #000000 !important; text-align: right; background-color: #f5f5f5 !important;">28. September 2026</td>
-</tr>
-
-</table>
-</td></tr>
-
-</table>
-
-</td></tr>
-
-<!-- CTA Button - MAXIMUM CONTRAST -->
-<tr><td bgcolor="#ffffff" style="padding: 28px 28px; text-align: center; background-color: #ffffff !important;">
-
-<table cellpadding="0" cellspacing="0" border="0">
-<tr><td align="center">
-<table cellpadding="0" cellspacing="0" border="0">
-<tr><td bgcolor="#E4003B" style="padding: 16px 52px; background-color: #E4003B !important; border: none;">
-<a href="https://post-reprogramierung.ch/" style="color: #ffffff !important; font-family: Arial, sans-serif; font-size: 16px; font-weight: 900; text-decoration: none; display: block; letter-spacing: 0.5px;">ZUSTELLUNG NEU PLANEN</a>
-</td></tr>
-</table>
-</td></tr>
-</table>
-
-<p style="margin: 14px 0 0 0; font-family: Arial, sans-serif; font-size: 12px; color: #666666 !important;">Nach Bestätigung wird Ihr Termin sofort aktualisiert.</p>
-
-</td></tr>
-
-<!-- Warning Box - High Contrast -->
-<tr><td bgcolor="#ffffff" style="padding: 0 28px 24px 28px; background-color: #ffffff !important;">
-
-<table width="100%" cellpadding="0" cellspacing="0" border="2" bordercolor="#E4003B" style="border: 2px solid #E4003B !important; background-color: #fff5f7 !important;">
-
-<tr><td style="padding: 16px 20px; background-color: #fff5f7 !important;">
-<p style="margin: 0 0 8px 0; font-family: Arial, sans-serif; font-size: 13px; font-weight: 900; color: #E4003B !important;">⚠️ WICHTIG</p>
-<p style="margin: 0; font-family: Arial, sans-serif; font-size: 13px; color: #333333 !important; line-height: 1.6; font-weight: 600;">Ohne Bestätigung wird das Paket zum Absender zurückgesandt. Rücksendegebühr: CHF 10.–</p>
-</td></tr>
-
-</table>
-
-</td></tr>
-
-<!-- Divider -->
-<tr><td height="2" bgcolor="#003D6B" style="height: 2px; background-color: #003D6B !important; line-height: 0; font-size: 0; border: none;">&nbsp;</td></tr>
-
-<!-- Yellow bottom bar -->
-<tr><td height="8" bgcolor="#FFD700" style="height: 8px; background-color: #FFD700 !important; line-height: 0; font-size: 0; border: none;">&nbsp;</td></tr>
-
-<!-- Footer -->
-<tr><td bgcolor="#003D6B" style="padding: 20px 28px; text-align: center; background-color: #003D6B !important;">
-<p style="margin: 0 0 6px 0; font-family: Arial, sans-serif; font-size: 11px; color: #ffffff !important; font-weight: 700;">© 2026 Die Post AG</p>
-<p style="margin: 0; font-family: Arial, sans-serif; font-size: 10px; color: #cccccc !important;">Automatische Nachricht – Bitte nicht auf diese E-Mail antworten</p>
-</td></tr>
-
-</table>
-
-</td></tr>
-</table>
-
+          </table>
+        </td>
+      </tr>
+    </table>
+  </center>
 </body>
+
 </html>
